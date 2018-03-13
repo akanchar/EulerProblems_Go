@@ -14,11 +14,10 @@ func main() {
 	var (
 	sum = 0
 	i = 0)
-	for i < FinalNumber {
+	for ; i < FinalNumber; i++ {
 		if (i%FirstFactor == 0 && i%SecondFactor == 0) {
 			sum += i
 		}
-		i++
 	}
 	fmt.Println("The sum of all the natural numbers below", FinalNumber, "that are multiples of", FirstFactor, "and", SecondFactor, "is", sum)
 }
