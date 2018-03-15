@@ -6,11 +6,11 @@
 package main
 import "fmt"
 // Global variables
-const  (FinalNumber = 1000
-		FirstFactor = 3
-		SecondFactor = 5)
 
 func main() {
+	const  (FinalNumber = 1000
+		FirstFactor = 3
+		SecondFactor = 5)
 	var (
 	sum = 0
 	i = 0)
